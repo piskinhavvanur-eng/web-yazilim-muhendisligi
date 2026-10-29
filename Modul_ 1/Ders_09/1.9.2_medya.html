@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders 9 - Video ve Ses Oynatıcıları</title>
+</head>
+<body>
+    <h1>Video ve Ses Oynatıcıları</h1>
+
+    <h2>Podcast Oynatıcı</h2>
+    <audio src="./audios/muzik.mp3" controls autoplay muted loop>
+        Tarayıcınız ses oynatıcıyı desteklemiyor.
+    </audio>
+
+
+    <h2>Tanıtım Videosu</h2>
+    <video src="./videos/ornek.mp4" controls width="500" loop poster="./images/video-kapak.webp">
+        Tarayıcınız video oynatıcıyı desteklemiyor.
+    </video>
+
+    <video controls width="500" autoplay muted>
+        <source src="./videos/ornek.mp4">
+        <source src="./videos/ornek.webm">
+        Tarayıcınız video oynatıcıyı desteklemiyor.
+    </video>
+    
+</body>
+</html>
